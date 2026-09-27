@@ -2,38 +2,53 @@
 
 ## Purpose
 
-This is a simple Python project for calculating student marks.
+This is a simple Python project for calculating student marks and determining whether a student has passed or failed.
 
 ## What it does
 
-- Takes student name
-- Takes marks
-- Calculates total marks
-- Calculates average marks
+* Takes the student's name
+* Takes marks for different subjects
+* Calculates total marks
+* Calculates average marks
+* Displays the student's result as Passed or Failed
 
-## How to run
+## How to Run
 
-Run the following command:
+Open the project folder in a terminal and run:
 
+```bash
 python student_marks.py
+```
 
 ## Example Input
 
-Student name: Rahul
-Maths: 80
-Python: 90
-English: 85
+```text
+Enter student name: Rahul
+Enter Maths marks: 80
+Enter Python marks: 90
+Enter English marks: 85
+```
 
 ## Example Output
 
+```text
 Student: Rahul
-Total: 255
+Total: 255.0
 Average: 85.0
+Result: Passed
+```
+
+## Passing Condition
+
+A student passes when the average marks are 40 or above.
 
 ## What I Learned
 
-- Python input
-- Variables
-- Arithmetic operations
-- Calculating total and average
-- Basic Git and GitHub workflow
+* Python input
+* Variables
+* Arithmetic operations
+* Conditional statements
+* Calculating total and average
+* Basic Git commands
+* Creating commits
+* Pushing changes to GitHub
